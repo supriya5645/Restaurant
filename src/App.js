@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Restrurant from "./component/Basics/Restrurant";
+// import UseState from './Hooks/useState';
+// import UseEffect from './Hooks/useEffect';
+// import UseReducer from './Hooks/useReducer';
+// import Todo from './component/todoreact/todo';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //  <Todo/>
+    <Restrurant />
   );
 }
 
